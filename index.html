@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Wars API Explorer</title>
+    <link rel="stylesheet" href="main.css"> <!--Linked CSS file -->
+</head>
+
+<body>
+    <header>
+        <h1>
+            Star Wars API Explorer
+        </h1>
+    </header>
+    <main>
+        <label for="character-select">Select a character:</label> <!-- Label for character select dropdown -->
+        <select id="character-select"></select> <!-- Dropdown for selecting characters -->
+        <button id="fetch-button">Fetch Data</button> <!-- Button to fetch character data -->
+        <div id="characters-container"></div> <!-- Container for displaying character information -->
+        <div id="image-container" class="flex-container">
+            <div class="image-box">
+                <img src="logo.png" alt="Logo" id="logo-image"> <!-- Logo image -->
+            </div>
+            <div class="image-box">
+                <img src="master_yoda.png" alt="Master Yoda" id="master-yoda-image"> <!-- Image of Master Yoda -->
+            </div>
+        </div>
+    </main>
+    <script src="main.js"></script> <!-- Linked JavaScript file -->
+</body>
+
+</html>

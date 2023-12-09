@@ -1,0 +1,60 @@
+/* Set the font family, margin, padding, and background color for the body */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+/* Style the header with a background color, text color, center alignment, and padding */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+/* Add padding to the main content area */
+main {
+    padding: 2em;
+}
+
+/* Style the container for characters */
+#characters-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Style each individual character */
+.character {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the character information */
+.character-info {
+    padding: 1em;
+    text-align: center;
+}
+
+/* Flex container with space between its items */
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Style image boxes */
+.image-box {
+    margin: 10px; 
+}
+
+/* Style the logo image and Master Yoda image */
+#logo-image,
+#master-yoda-image {
+    width: 500px;
+    height: 500px;
+}
