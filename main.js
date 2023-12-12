@@ -40,7 +40,7 @@ async function fetchAndDisplayCharacter(characterUrl) {
         // Conditionally display image for Luke Skywalker
         if (character.name === 'Luke Skywalker') {
             const imageElement = document.createElement('img');
-            imageElement.src = 'Luke_skywalker.png'; 
+            imageElement.src = 'Luke_Skywalker.png'; 
             imageElement.alt = 'Luke Skywalker';
             imageElement.width = 100;
             imageElement.height = 100;
