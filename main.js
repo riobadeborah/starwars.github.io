@@ -103,7 +103,7 @@ async function fetchAndDisplayCharacter(characterUrl) {
                  // Conditionally display image for Beru Whitesun lars
                  if (character.name === 'Beru Whitesun lars') {
                     const imageElement = document.createElement('img');
-                    imageElement.src = 'Beru_Whitesun_lars.png';
+                    imageElement.src = 'Beru_Whitesun_Lars.png';
                     imageElement.alt = 'Beru Whitesun lars';
                     imageElement.width = 100;
                     imageElement.height = 100;
